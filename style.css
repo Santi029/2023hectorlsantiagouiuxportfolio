@@ -40,3 +40,16 @@ h6 {
     font-size: 16px;
     color: rgb(48, 48, 48);
 }
+
+menu {
+    background-color: black;
+}
+
+#menu {
+    background-color: black;
+    color: white;
+    border-radius: 50px;
+    margin: 5px, 10px;
+    padding: 5px, 20px;
+    border: solid 2px white;
+}
