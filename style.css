@@ -82,4 +82,6 @@ menu {
 
 .social-links {
     color: white;
+    display: flex;
+    flex-wrap: nowrap;
 }
