@@ -52,13 +52,13 @@ h6 {
 .profile-picture {
     width: 48px;
     height: auto;
-    padding: 8px;
+    padding: 16px;
     padding-left: 240px;
 }
 
 .logo img{
     width: 150px;
-    padding: 8px 24px;
+    padding: 16px 24px;
 
 }
 
@@ -69,6 +69,10 @@ menu {
     flex-wrap: nowrap;
     justify-items: center;
 }
+
+menu img {
+    color: white;
+} 
 
 #menu {
     background-color: black;
@@ -84,4 +88,11 @@ menu {
     color: white;
     display: flex;
     flex-wrap: nowrap;
+    padding: 28px 24px;
+}
+
+.social-links img{
+    display: flex;
+    flex-wrap: nowrap;
+    padding: 0px 8px;
 }
