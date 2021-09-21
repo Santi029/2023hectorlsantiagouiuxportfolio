@@ -1,0 +1,42 @@
+body {
+    font-family: 'Open_Sans','Lato';
+    font-size: 15px;
+    width: 100%;
+    max-width: 1920px;
+}
+h1 {
+    font-family: 'Red hat display', 'Raleway';
+    /* font-size: 3em; */
+    font-size: 48px;
+    color: rgb(08, 08, 08);
+}
+h2 {
+    font-family: 'Red hat display', 'Raleway';
+    /* font-size: 2.5em; */
+    font-size: 40px;
+    color: rgb(16, 16, 16);
+}
+h3 {
+    font-family: 'Red hat display', 'Raleway';
+    /* font-size: 2em; */
+    font-size: 32px;
+    color: rgb(24, 24, 24);
+}
+h4 {
+    font-family: 'Red hat display', 'Raleway';
+    /* font-size: 1.75em; */
+    font-size: 24px;
+    color: rgb(32, 32, 32);
+}
+h5 {
+    font-family: 'Red hat display', 'Raleway';
+    /* font-size: 1.5em; */
+    font-size: 18px;
+    color: rgb(40, 40, 40);
+}
+h6 {
+    font-family: 'Red hat display', 'Raleway';
+    /* font-size: 1.25em; */
+    font-size: 16px;
+    color: rgb(48, 48, 48);
+}
