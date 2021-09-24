@@ -73,12 +73,22 @@ h6 {
 
 }
 
+.logo-picture {
+    flex-flow: nowrap;
+    display: flex;
+}
+
 .main-menu{
     background-color: black;
     width: 720px;
     display: inline-flex;
     flex-flow: row wrap;
     justify-content: space-around;
+    padding-left: 0px;
+}
+
+.main-menu ul {
+    padding-left: 0px;
 }
 
 #menu-links {
@@ -88,6 +98,13 @@ h6 {
     padding: 6px 16px;
     border-radius: 8px;
     font-size: .8em;
+}
+
+#menu-links:hover {
+    /* background: linear-gradient(to right, #F38F6B, #45C8AB, #6B459D); */
+    background: white;
+    color: black;
+    font-weight: 600;
 }
 
 .social-links {
@@ -118,6 +135,10 @@ h6 {
     border: none;
 }
 
+.black-btn:hover {
+    background: #6B459D;
+}
+
 .white-btn {
     background-color: white;
     color: black;
@@ -133,6 +154,10 @@ h6 {
     z-index: 1;
     box-shadow: 4px 4px 8px 4px #0000001a;
     border: none;
+}
+
+.white-btn:hover {
+    background: #45C8AB;
 }
 
 html {
