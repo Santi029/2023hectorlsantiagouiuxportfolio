@@ -166,3 +166,7 @@ html {
 .hero-text p {
     width: 622.95px;
 }
+
+.colors-bar {
+    position: absolute;
+}
