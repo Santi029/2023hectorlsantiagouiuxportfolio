@@ -5,22 +5,22 @@ body {
     margin: 0%;
 }
 
-.container {
-    width: 1440px;
-    margin: auto;
-}
-
 header {
     background-color: black;
+}
+
+.container {
+    width: 75%;
+    margin: auto;
     height: 80px;
     display: flex;
     flex-wrap: nowrap;
     z-index: 1;
 }
+
 /* Text configuration */
 h1 {
     font-family: 'Red hat display', 'Raleway';
-    /* font-size: 3em; */
     font-size: 48px;
     color: rgb(08, 08, 08);
 }
@@ -111,7 +111,7 @@ h6 {
     height: 48px;
     left: 900px;
     top: 600px;
-    z-index: 3;
+    z-index: 1;
 }
 
 .white-btn {
@@ -126,7 +126,7 @@ h6 {
     height: 48px;
     left: 1225px;
     top: 600px;
-    z-index: 3;
+    z-index: 1;
 }
 
 html {
@@ -143,30 +143,46 @@ html {
     background-image: url("/images/hero-background.jpg");
     background-repeat: no-repeat;
     background-size: contain;
-    z-index: 0;
+    z-index: 1;
     background-origin: border-box;
+    border: 3px solid #8c00ff;
 }
 
 .hero-text {
     color: #343A40;
     font-family: Open Sans;
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    width: 500px;
+    height: 200px;
+    z-index: 0;
+    border: 3px solid #eeff00;
 }
 
 .hero-text h1 {
     width: 365px;
     height: 53px;
     font-weight: 900;
+    z-index: 1;
+    border: 3px solid #fa8500;
 }
 
 .hero-text h3 {
     width: 622.95px;
     font-weight: 600;
+    z-index: 1;
+    border: 3px solid #ff0000;
 }
 
 .hero-text p {
     width: 622.95px;
+    z-index: 1;
+    border: 3px solid #00df68;
 }
 
 .colors-bar {
     position: absolute;
+    z-index: 1;
+    border: 3px solid #00b7ff;
 }
