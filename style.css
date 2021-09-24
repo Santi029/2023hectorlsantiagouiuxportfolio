@@ -15,7 +15,6 @@ header {
     height: 80px;
     display: flex;
     flex-wrap: nowrap;
-    z-index: 1;
 }
 
 /* Text configuration */
@@ -61,7 +60,6 @@ h6 {
     width: 48px;
     height: auto;
     padding: 16px;
-    padding-left: 240px;
 }
 
 .logo img {
@@ -104,19 +102,21 @@ h6 {
 .black-btn {
     background-color: black;
     color: white;
+    font-weight: 600;
     border-radius: 8px;
     padding: 8px 16px;
     position: absolute;
     width: 218.9px;
     height: 48px;
-    left: 900px;
-    top: 600px;
     z-index: 1;
+    box-shadow: 4px 4px 8px 4px #0000001a;
+    border: none;
 }
 
 .white-btn {
     background-color: white;
     color: black;
+    font-weight: 600;
     border: solid 2px black;
     border-radius: 8px;
     padding: 8px 16px;
@@ -124,9 +124,10 @@ h6 {
     position: absolute;
     width: 218.9px;
     height: 48px;
-    left: 1225px;
-    top: 600px;
+    left: 300px;
     z-index: 1;
+    box-shadow: 4px 4px 8px 4px #0000001a;
+    border: none;
 }
 
 html {
@@ -136,13 +137,12 @@ html {
 /* The hero image */
 .hero-image {
     position: fixed;
-    width: 1440px;
+    width: 100%;
     height: 700px;
-    left: 240px;
     top: 80px;
     background-image: url("/images/hero-background.jpg");
     background-repeat: no-repeat;
-    background-size: contain;
+    background-size: cover;
     z-index: 1;
     background-origin: border-box;
     border: 3px solid #8c00ff;
@@ -154,35 +154,37 @@ html {
     position: absolute;
     top: 30%;
     left: 50%;
-    width: 500px;
-    height: 200px;
+    width: 600px;
+    height: auto;
     z-index: 0;
-    border: 3px solid #eeff00;
+    /* border: 3px solid #eeff00; */
 }
 
 .hero-text h1 {
-    width: 365px;
+    width: 600px;
     height: 53px;
     font-weight: 900;
     z-index: 1;
-    border: 3px solid #fa8500;
+    /* border: 3px solid #fa8500; */
 }
 
 .hero-text h3 {
-    width: 622.95px;
+    width: 600px;
     font-weight: 600;
     z-index: 1;
-    border: 3px solid #ff0000;
+    /* border: 3px solid #ff0000; */
 }
 
-.hero-text p {
-    width: 622.95px;
+.hero-text h5 {
+    width: 600px;
     z-index: 1;
-    border: 3px solid #00df68;
+    line-height: 32px;
+    /* border: 3px solid #00df68; */
 }
 
 .colors-bar {
     position: absolute;
+    top: 100px;
     z-index: 1;
-    border: 3px solid #00b7ff;
+    /* border: 3px solid #00b7ff; */
 }
