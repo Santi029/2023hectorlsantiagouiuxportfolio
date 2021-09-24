@@ -237,3 +237,12 @@ html {
     color: rgb(0, 0, 0);
     border: 2px solid black;
 }
+
+
+
+
+
+main, footer{
+    background: #343A40;
+    color: white;
+}
