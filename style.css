@@ -129,18 +129,15 @@ h6 {
 
 }
 
-menu {
+.main-menu{
+    background-color: black;
+    width: 720px;
     display: inline-flex;
     flex-flow: row wrap;
     justify-content: space-around;
 }
 
-.menu-items {
-    background-color: black;
-    width: 720px;
-}
-
-#menu {
+#menu-links {
     background-color: black;
     color: white;
     border: solid 2px rgb(59, 59, 59);
