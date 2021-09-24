@@ -5,6 +5,102 @@ body {
     margin: 0%;
 }
 
+.container {
+    width: 1440px;
+    margin: auto;
+}
+
+header {
+    background-color: black;
+    height: 80px;
+    display: flex;
+    flex-wrap: nowrap;
+    z-index: 1;
+}
+/* Text configuration */
+h1 {
+    font-family: 'Red hat display', 'Raleway';
+    /* font-size: 3em; */
+    font-size: 48px;
+    color: rgb(08, 08, 08);
+}
+
+h2 {
+    font-family: 'Red hat display', 'Raleway';
+    font-size: 40px;
+    color: rgb(16, 16, 16);
+}
+
+h3 {
+    font-family: 'Red hat display', 'Raleway';
+    font-size: 32px;
+    color: rgb(24, 24, 24);
+}
+
+h4 {
+    font-family: 'Red hat display', 'Raleway';
+    font-size: 24px;
+    color: rgb(32, 32, 32);
+}
+
+h5 {
+    font-family: 'Red hat display', 'Raleway';
+    font-size: 18px;
+    color: rgb(40, 40, 40);
+}
+
+h6 {
+    font-family: 'Red hat display', 'Raleway';
+    font-size: 16px;
+    color: rgb(48, 48, 48);
+}
+
+/* Header configuration */
+
+.profile-picture {
+    width: 48px;
+    height: auto;
+    padding: 16px;
+    padding-left: 240px;
+}
+
+.logo img {
+    width: 150px;
+    padding: 16px 24px;
+
+}
+
+.main-menu{
+    background-color: black;
+    width: 720px;
+    display: inline-flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+}
+
+#menu-links {
+    background-color: black;
+    color: white;
+    border: solid 2px rgb(59, 59, 59);
+    padding: 6px 16px;
+    border-radius: 8px;
+    font-size: .8em;
+}
+
+.social-links {
+    color: white;
+    display: flex;
+    flex-wrap: nowrap;
+    padding: 28px 24px;
+}
+
+.social-links img {
+    display: flex;
+    flex-wrap: nowrap;
+    padding: 0px 8px;
+}
+
+/* Botones */
 .black-btn {
     background-color: black;
     color: white;
@@ -52,146 +148,21 @@ html {
 }
 
 .hero-text {
-    transform: translate(-50%, -50%);
     color: #343A40;
-    padding-top: 400px;
     font-family: Open Sans;
-    text-align: left;
-    z-index: 1;
 }
 
-.container {
-    width: 1440px;
-    margin: auto;
-}
-
-header {
-    background-color: black;
-    height: 80px;
-    display: flex;
-    flex-wrap: nowrap;
-    z-index: 1;
-}
-
-h1 {
-    font-family: 'Red hat display', 'Raleway';
-    /* font-size: 3em; */
-    font-size: 48px;
-    color: rgb(08, 08, 08);
-}
-
-h2 {
-    font-family: 'Red hat display', 'Raleway';
-    /* font-size: 2.5em; */
-    font-size: 40px;
-    color: rgb(16, 16, 16);
-}
-
-h3 {
-    font-family: 'Red hat display', 'Raleway';
-    /* font-size: 2em; */
-    font-size: 32px;
-    color: rgb(24, 24, 24);
-}
-
-h4 {
-    font-family: 'Red hat display', 'Raleway';
-    /* font-size: 1.75em; */
-    font-size: 24px;
-    color: rgb(32, 32, 32);
-}
-
-h5 {
-    font-family: 'Red hat display', 'Raleway';
-    /* font-size: 1.5em; */
-    font-size: 18px;
-    color: rgb(40, 40, 40);
-}
-
-h6 {
-    font-family: 'Red hat display', 'Raleway';
-    /* font-size: 1.25em; */
-    font-size: 16px;
-    color: rgb(48, 48, 48);
-}
-
-
-.profile-picture {
-    width: 48px;
-    height: auto;
-    padding: 16px;
-    padding-left: 240px;
-}
-
-.logo img {
-    width: 150px;
-    padding: 16px 24px;
-
-}
-
-.main-menu{
-    background-color: black;
-    width: 720px;
-    display: inline-flex;
-    flex-flow: row wrap;
-    justify-content: space-around;
-}
-
-#menu-links {
-    background-color: black;
-    color: white;
-    border: solid 2px rgb(59, 59, 59);
-    padding: 4px 8px;
-    border-radius: 48px;
-    font-size: .8em;
-}
-
-.social-links {
-    color: white;
-    display: flex;
-    flex-wrap: nowrap;
-    padding: 28px 24px;
-}
-
-.social-links img {
-    display: flex;
-    flex-wrap: nowrap;
-    padding: 0px 8px;
-}
-
-/* Slideshow section */
 .hero-text h1 {
-    position: absolute;
-    text-align: left;
     width: 365px;
     height: 53px;
-    left: 900px;
-    top: 300px;
-    font-style: normal;
     font-weight: 900;
-    font-size: 3em;
-    line-height: 56px;
 }
 
 .hero-text h3 {
-    position: absolute;
-
     width: 622.95px;
-    left: 900px;
-    top: 400px;
-    font-style: normal;
     font-weight: 600;
-    font-size: 1.5em;
-    line-height: 33px;
 }
 
 .hero-text p {
-    position: absolute;
-    text-align: left;
-    left: 900px;
     width: 622.95px;
-    top: 475px;
-
-    font-size: 1.25em;
-    line-height: 33px;
 }
