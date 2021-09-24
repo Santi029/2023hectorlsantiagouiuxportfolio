@@ -78,7 +78,7 @@ h6 {
     display: flex;
 }
 
-.main-menu{
+.main-menu {
     background-color: black;
     width: 720px;
     display: inline-flex;
@@ -232,6 +232,7 @@ html {
     box-shadow: 4px 4px 8px 4px #0000001a;
     border: none;
 }
+
 .process-button:hover {
     background: #ffffff;
     color: rgb(0, 0, 0);
@@ -240,44 +241,69 @@ html {
 
 .container-grid {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
     gap: 16px 16px;
     grid-auto-flow: row;
     grid-template-areas:
-        "Project-\#1 Project-\#2 Project-\#3 Project-\#4"
-        "Project-\#5 Project-\#6 Project-\#7 Project-\#8"
-        "Project-\#9 Project-\#10 Project-\#11 Project-\#12";
+        "Project-\#1 Project-\#2 Project-\#3"
+        "Project-\#5 Project-\#6 Project-\#7"
+        "Project-\#9 Project-\#10 Project-\#11"
+        "Project-\#4 Project-\#8 Project-\#12";
 }
 
-.Project-\#8 { grid-area: Project-\#8; }
+.Project-\#3 {
+    grid-area: Project-\#3;
+}
 
-.Project-\#4 { grid-area: Project-\#4; }
+.Project-\#2 {
+    grid-area: Project-\#2;
+}
 
-.Project-\#3 { grid-area: Project-\#3; }
+.Project-\#1 {
+    grid-area: Project-\#1;
+}
 
-.Project-\#2 { grid-area: Project-\#2; }
+.Project-\#5 {
+    grid-area: Project-\#5;
+}
 
-.Project-\#1 { grid-area: Project-\#1; }
+.Project-\#6 {
+    grid-area: Project-\#6;
+}
 
-.Project-\#5 { grid-area: Project-\#5; }
+.Project-\#7 {
+    grid-area: Project-\#7;
+}
 
-.Project-\#6 { grid-area: Project-\#6; }
+.Project-\#9 {
+    grid-area: Project-\#9;
+}
 
-.Project-\#7 { grid-area: Project-\#7; }
+.Project-\#10 {
+    grid-area: Project-\#10;
+}
 
-.Project-\#9 { grid-area: Project-\#9; }
+.Project-\#11 {
+    grid-area: Project-\#11;
+}
 
-.Project-\#10 { grid-area: Project-\#10; }
+.Project-\#4 {
+    grid-area: Project-\#4;
+}
 
-.Project-\#11 { grid-area: Project-\#11; }
+.Project-\#8 {
+    grid-area: Project-\#8;
+}
 
-.Project-\#12 { grid-area: Project-\#12; }
+.Project-\#12 {
+    grid-area: Project-\#12;
+}
 
 
 
-
-main, footer{
+main,
+footer {
     background: #343A40;
     color: white;
 }
