@@ -12,6 +12,7 @@ header {
 .container {
     width: 75%;
     margin: auto;
+    border: solid 5px #45C8AB;
 }
 
 .top-nav {
@@ -437,14 +438,66 @@ main h4{
 .about {
     padding-top: 48px;
     padding-bottom: 48px;
+    width: 100%;
 }
 
+.about-text {
+    width: 1000px;
+    padding-top: 48px;
+    padding-bottom: 48px;
+    border: solid 5px rgb(0, 141, 141);
+}
 
+.recomendation {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-around;
+    border: solid 5px rgb(0, 43, 185);
+    width: 1440px;
+}
+.shane-btn {
+    background-color: black;
+    color: white;
+    font-weight: 600;
+    border-radius: 8px;
+    padding: 8px 16px;
+    position: absolute;
+    width: 218.9px;
+    height: 48px;
+    box-shadow: 4px 4px 8px 4px #0000001a;
+    border: none;
+}
+
+.shane-btn:hover {
+    background: #6B459D;
+}
+
+.kyle-btn {
+    background-color: white;
+    color: black;
+    font-weight: 600;
+    border: solid 2px black;
+    border-radius: 8px;
+    padding: 8px 16px;
+    margin-left: 64px;
+    position: absolute;
+    width: 218.9px;
+    height: 48px;
+    left: 0px;
+    box-shadow: 4px 4px 8px 4px #0000001a;
+    border: none;
+}
+
+.kyle-btn:hover {
+    background: #45C8AB;
+}
 
 
 .social-links {
     padding-top: 48px;
     padding-bottom: 48px;
+    width: 200px;
+    margin: auto;
 }
 /* My footer Section */
 .main-footer {
