@@ -19,7 +19,7 @@ header {
     height: 80px;
     display: flex;
     flex-wrap: nowrap;
-    justify-content: space-between;
+    justify-content: space-evenly;
 }
 
 /* Text configuration */
@@ -69,7 +69,10 @@ h6 {
     margin-top: 8px;
     margin-bottom: 8px;
 }
-
+p {
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
 /* Header configuration */
 
 .profile-picture {
@@ -121,13 +124,14 @@ h6 {
 .social-links {
     color: white;
     display: flex;
-    flex-wrap: nowrap;
+    flex-wrap: row nowrap;
     padding: 28px 24px;
 }
 
 .social-links img {
     display: flex;
     flex-wrap: nowrap;
+    justify-content: space-evenly;
     padding: 0px 8px;
 }
 
@@ -448,7 +452,7 @@ main h4{
     border: solid 5px rgb(0, 141, 141);
 }
 
-.recomendation {
+.recomendations {
     display: flex;
     flex-flow: row nowrap;
     justify-content: space-around;
@@ -493,21 +497,19 @@ main h4{
 }
 
 
-.social-links {
-    padding-top: 48px;
-    padding-bottom: 48px;
-    width: 200px;
-    margin: auto;
-}
+
 /* My footer Section */
 .main-footer {
     padding-top: 48px;
-    padding-bottom: 48px;
+    padding-bottom: 8px;
     width: 800px;
     text-align: center;
     margin: auto;
 }
-
+.footer-h1 {
+    margin-bottom: 8px;
+    margin-top: 8px;
+}
 main, footer {
     background: #343A40;
     color: white;
@@ -515,4 +517,57 @@ main, footer {
 
 footer h6 {
     color: white;
+}
+
+.footer-buttons {
+    margin: auto;
+    width: 600px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.footerblack-btn {
+    background-color: black;
+    color: white;
+    font-weight: 600;
+    border-radius: 8px;
+    padding: 8px 16px;
+    position: relative;
+    width: 218.9px;
+    height: 48px;
+    right: 46px;
+    box-shadow: 4px 4px 8px 4px #0000001a;
+    border: none;
+}
+
+.footerblack-btn:hover {
+    background: #6B459D;
+}
+
+.footerwhite-btn {
+    background-color: white;
+    color: black;
+    font-weight: 600;
+    border: solid 2px black;
+    border-radius: 8px;
+    padding: 8px 16px;
+    margin-left: 64px;
+    position: relative;
+    width: 218.9px;
+    height: 48px;
+    left: 48px;
+    box-shadow: 4px 4px 8px 4px #0000001a;
+    border: none;
+}
+
+.footerwhite-btn:hover {
+    background: #45C8AB;
+}
+
+.footer-links {
+    width: 200px;
+    margin: auto;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
 }
