@@ -278,7 +278,7 @@ html {
         "L3 R3"
         "L4 R4"
         "L5 R5";
-    width: 1200px;
+    width: 1440px;
     height: 1400px;
     padding-top: 750px;
     padding-left: 0px;
@@ -335,6 +335,26 @@ html {
 
 
 /* My Project Section */
+.myproject {
+    padding-top: 48px;
+    padding-bottom: 48px;
+}
+
+main h6{
+    color: white;
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
+
+main h2 {
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
+
+main h4{
+    color: white;
+}
+
 .container-grid {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
@@ -395,16 +415,51 @@ html {
 .Project-\#12 {
     grid-area: Project-\#12;
 }
+/* My Skills Section */
+.myskills {
+    padding-top: 48px;
+    padding-bottom: 48px;
+    width: 1920px;
+}
 
 
+.skill {
+    width: 1920px;
+}
+
+.skill-images {
+    width: 1500px;
+}
+
+
+
+/* My About Section */
+.about {
+    padding-top: 48px;
+    padding-bottom: 48px;
+}
+
+
+
+
+.social-links {
+    padding-top: 48px;
+    padding-bottom: 48px;
+}
+/* My footer Section */
 .main-footer {
+    padding-top: 48px;
+    padding-bottom: 48px;
     width: 800px;
     text-align: center;
     margin: auto;
 }
 
-main,
-footer {
+main, footer {
     background: #343A40;
+    color: white;
+}
+
+footer h6 {
     color: white;
 }
