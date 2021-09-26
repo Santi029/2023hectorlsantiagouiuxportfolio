@@ -12,7 +12,7 @@ header {
 .container {
     width: 1440px;
     margin: auto;
-    border: solid 5px #45C8AB;
+    /* border: solid 5px #45C8AB; */
 }
 
 .top-nav {
@@ -80,7 +80,9 @@ p {
 
 .profile-picture {
     width: 48px;
-    height: auto;
+    height: 48px;
+    padding-bottom: 13px;
+    padding-top: 16px;
     padding: 16px;
 }
 
@@ -374,6 +376,8 @@ main h2 {
 
 main h4{
     color: white;
+    margin-top: 16px;
+    margin-bottom: 16px;
 }
 
 .container-grid {
@@ -459,11 +463,12 @@ main h4{
     padding-top: 48px;
     padding-bottom: 48px;
     width: 100%;
+    /* border: solid 5px rgb(226, 230, 1); */
 }
 
 .about-text {
     width: 1000px;
-    border: solid 5px rgb(0, 141, 141);
+    /* border: solid 5px rgb(0, 141, 141); */
 }
 
 .about-text h4 {
@@ -472,18 +477,17 @@ main h4{
 }
 
 .sub-about {
-    /* border: solid 3px #343A40; */
+    /* border: solid 5px #8d00df; */
     display: flex;
     flex-flow: row wrap;
+    justify-content: space-between;
 }
 
 .recomendations {
     display: flexbox;
     flex-flow: column;
     /* border: solid 5px rgb(0, 43, 185); */
-    height: auto;
     width: 220px;
-    margin: auto;
 }
 .shane-btn {
     background-color: black;
