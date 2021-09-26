@@ -1,5 +1,5 @@
 body {
-    font-family: 'Open_Sans', 'Lato';
+    font-family: 'Open Sans', sans-serif;
     font-size: 15px;
     padding: 0%;
     margin: 0%;
@@ -23,40 +23,50 @@ header {
 
 /* Text configuration */
 h1 {
-    font-family: 'Red hat display', 'Raleway';
+    font-family: 'Red Hat Display', sans-serif;
+    font-weight: 900;
     font-size: 48px;
     color: rgb(08, 08, 08);
     margin-top: 0px;
 }
 
 h2 {
-    font-family: 'Red hat display', 'Raleway';
+    font-family: 'Raleway', sans-serif;
+    font-weight: 800;
     font-size: 40px;
     color: rgb(16, 16, 16);
+    margin-top: 8px;
+    margin-bottom: 8px;
 }
 
 h3 {
-    font-family: 'Red hat display', 'Raleway';
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
     font-size: 32px;
     color: rgb(24, 24, 24);
 }
 
 h4 {
-    font-family: 'Red hat display', 'Raleway';
+    font-family: 'Raleway', sans-serif;
+    font-weight: 600;
     font-size: 24px;
     color: rgb(32, 32, 32);
 }
 
 h5 {
-    font-family: 'Red hat display', 'Raleway';
+    font-family: 'Raleway', sans-serif;
+    font-weight: 500;
     font-size: 18px;
     color: rgb(40, 40, 40);
 }
 
 h6 {
-    font-family: 'Red hat display', 'Raleway';
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
     font-size: 16px;
     color: rgb(48, 48, 48);
+    margin-top: 8px;
+    margin-bottom: 8px;
 }
 
 /* Header configuration */
@@ -239,6 +249,92 @@ html {
     border: 2px solid black;
 }
 
+.process-steps {
+    line-height: 24px;
+    /* border: solid 5px peachpuff; */
+}
+
+.process-image img {
+    width: 580px;
+    height: auto;
+    /* border: solid 5px cornflowerblue; */
+}
+
+.process-steps h3 {
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
+
+.process-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+    gap: 24px 24px;
+    grid-auto-flow: row;
+
+    grid-template-areas:
+        "L1 R1"
+        "L2 R2"
+        "L3 R3"
+        "L4 R4"
+        "L5 R5";
+    width: 1200px;
+    height: 1400px;
+    padding-top: 750px;
+    padding-left: 0px;
+    justify-content: center;
+    /* background-color: coral; */
+    margin: auto;
+
+}
+
+.R2 {
+    grid-area: R2;
+}
+
+.L2 {
+    grid-area: L2;
+}
+
+.R1 {
+    grid-area: R1;
+}
+
+.L1 {
+    grid-area: L1;
+}
+
+.L3 {
+    grid-area: L3;
+}
+
+.L4 {
+    grid-area: L4;
+}
+
+.R3 {
+    grid-area: R3;
+}
+
+.R4 {
+    grid-area: R4;
+}
+
+.L5 {
+    grid-area: L5;
+    /* border: solid 5px black; */
+}
+
+.R5 {
+    grid-area: R5;
+    justify-self: end;
+    width: 219px;
+    height: 60px;
+    /* border: solid 5px black; */
+}
+
+
+/* My Project Section */
 .container-grid {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
@@ -306,6 +402,7 @@ html {
     text-align: center;
     margin: auto;
 }
+
 main,
 footer {
     background: #343A40;
