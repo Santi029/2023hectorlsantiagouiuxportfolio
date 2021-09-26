@@ -10,16 +10,19 @@ header {
 }
 
 .container {
-    width: 75%;
+    width: 1440px;
     margin: auto;
     border: solid 5px #45C8AB;
 }
 
 .top-nav {
-    height: 80px;
+    height: 75px;
     display: flex;
     flex-wrap: nowrap;
     justify-content: space-evenly;
+    align-items: center;
+    margin-top: 0px;
+    margin-bottom: 0px;
 }
 
 /* Text configuration */
@@ -126,6 +129,8 @@ p {
     display: flex;
     flex-wrap: row nowrap;
     padding: 28px 24px;
+    padding-bottom: 23px;
+    padding-top: 22px;
 }
 
 .social-links img {
@@ -284,7 +289,7 @@ html {
         "L4 R4"
         "L5 R5";
     width: 1440px;
-    height: 1400px;
+    height: 1200px;
     padding-top: 750px;
     padding-left: 0px;
     justify-content: center;
@@ -295,47 +300,58 @@ html {
 
 .R2 {
     grid-area: R2;
+    height: 100px;
 }
 
 .L2 {
     grid-area: L2;
+    height: 100px;
 }
 
 .R1 {
     grid-area: R1;
+    height: auto;
 }
 
 .L1 {
     grid-area: L1;
+    height: 100px;
 }
 
 .L3 {
     grid-area: L3;
+    height: 100px;
 }
 
 .L4 {
     grid-area: L4;
+    height: 100px;
 }
 
 .R3 {
     grid-area: R3;
+    height: 100px;
 }
 
 .R4 {
     grid-area: R4;
+    height: 100px;
 }
 
 .L5 {
     grid-area: L5;
     /* border: solid 5px black; */
+    width: 100%;
+    height: 100px;
 }
 
 .R5 {
     grid-area: R5;
-    justify-self: end;
-    width: 219px;
-    height: 60px;
-    /* border: solid 5px black; */
+    width: 220px;
+    height: auto;
+    position: relative;
+    left: 69%;
+    /* border: solid 3px black; */
 }
 
 
@@ -495,8 +511,6 @@ main h4{
 .kyle-btn:hover {
     background: #45C8AB;
 }
-
-
 
 /* My footer Section */
 .main-footer {
