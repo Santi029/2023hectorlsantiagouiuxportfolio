@@ -468,12 +468,19 @@ main h4{
     border: solid 5px rgb(0, 141, 141);
 }
 
-.recomendations {
+.sub-about {
+    border: solid 3px #343A40;
     display: flex;
-    flex-flow: row nowrap;
-    justify-content: space-around;
+    flex-flow: row wrap;
+}
+
+.recomendations {
+    display: flexbox;
+    flex-flow: column;
     border: solid 5px rgb(0, 43, 185);
-    width: 1440px;
+    height: auto;
+    width: 200px;
+    margin: auto;
 }
 .shane-btn {
     background-color: black;
@@ -481,7 +488,6 @@ main h4{
     font-weight: 600;
     border-radius: 8px;
     padding: 8px 16px;
-    position: absolute;
     width: 218.9px;
     height: 48px;
     box-shadow: 4px 4px 8px 4px #0000001a;
