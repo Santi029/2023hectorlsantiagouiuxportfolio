@@ -463,13 +463,16 @@ main h4{
 
 .about-text {
     width: 1000px;
-    padding-top: 48px;
-    padding-bottom: 48px;
     border: solid 5px rgb(0, 141, 141);
 }
 
+.about-text h4 {
+    margin-top: 16px;
+    margin-bottom: 16px;
+}
+
 .sub-about {
-    border: solid 3px #343A40;
+    /* border: solid 3px #343A40; */
     display: flex;
     flex-flow: row wrap;
 }
@@ -477,9 +480,9 @@ main h4{
 .recomendations {
     display: flexbox;
     flex-flow: column;
-    border: solid 5px rgb(0, 43, 185);
+    /* border: solid 5px rgb(0, 43, 185); */
     height: auto;
-    width: 200px;
+    width: 220px;
     margin: auto;
 }
 .shane-btn {
@@ -492,6 +495,7 @@ main h4{
     height: 48px;
     box-shadow: 4px 4px 8px 4px #0000001a;
     border: none;
+    margin-bottom: 24px;
 }
 
 .shane-btn:hover {
@@ -505,13 +509,13 @@ main h4{
     border: solid 2px black;
     border-radius: 8px;
     padding: 8px 16px;
-    margin-left: 64px;
-    position: absolute;
+    margin: auto;
+    position: relative;
     width: 218.9px;
     height: 48px;
-    left: 0px;
     box-shadow: 4px 4px 8px 4px #0000001a;
     border: none;
+    margin-bottom: 24px;
 }
 
 .kyle-btn:hover {
