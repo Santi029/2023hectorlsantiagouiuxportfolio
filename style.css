@@ -72,10 +72,12 @@ h6 {
     margin-top: 8px;
     margin-bottom: 8px;
 }
+
 p {
     margin-top: 8px;
     margin-bottom: 8px;
 }
+
 /* Header configuration */
 
 .profile-picture {
@@ -363,7 +365,7 @@ html {
     padding-bottom: 48px;
 }
 
-main h6{
+main h6 {
     color: white;
     margin-top: 8px;
     margin-bottom: 8px;
@@ -374,72 +376,91 @@ main h2 {
     margin-bottom: 8px;
 }
 
-main h4{
+main h4 {
     color: white;
     margin-top: 16px;
     margin-bottom: 16px;
 }
 
-.container-grid {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr 1fr 1fr;
-    gap: 24px 24px;
-    grid-auto-flow: row;
-    grid-template-areas:
-        "Project-\#1 Project-\#2 Project-\#3"
-        "Project-\#5 Project-\#6 Project-\#7"
-        "Project-\#9 Project-\#10 Project-\#11"
-        "Project-\#4 Project-\#8 Project-\#12";
+/* My Work Section inside of projects. */
+* {
+    box-sizing: border-box;
 }
 
-.Project-\#3 {
-    grid-area: Project-\#3;
+body {
+    background-color: #f1f1f1;
+    padding: 20px;
+    font-family: Arial;
 }
 
-.Project-\#2 {
-    grid-area: Project-\#2;
+/* Center website */
+.main {
+    max-width: 1000px;
+    margin: auto;
 }
 
-.Project-\#1 {
-    grid-area: Project-\#1;
+h1 {
+    font-size: 50px;
+    word-break: break-all;
 }
 
-.Project-\#5 {
-    grid-area: Project-\#5;
+.row {
+    margin: 8px -16px;
 }
 
-.Project-\#6 {
-    grid-area: Project-\#6;
+/* Add padding BETWEEN each column (if you want) */
+.row,
+.row>.column {
+    padding: 8px;
 }
 
-.Project-\#7 {
-    grid-area: Project-\#7;
+/* Create three equal columns that floats next to each other */
+.column {
+    float: left;
+    width: 33.33%;
+    display: none;
+    /* Hide columns by default */
 }
 
-.Project-\#9 {
-    grid-area: Project-\#9;
+/* Clear floats after rows */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
 }
 
-.Project-\#10 {
-    grid-area: Project-\#10;
+/* Content */
+.content {
+    background-color: white;
+    padding: 10px;
 }
 
-.Project-\#11 {
-    grid-area: Project-\#11;
+/* The "show" class is added to the filtered elements */
+.show {
+    display: block;
 }
 
-.Project-\#4 {
-    grid-area: Project-\#4;
+/* Style the buttons */
+.btn {
+    border: none;
+    outline: none;
+    padding: 12px 16px;
+    background-color: white;
+    cursor: pointer;
 }
 
-.Project-\#8 {
-    grid-area: Project-\#8;
+/* Add a grey background color on mouse-over */
+.btn:hover {
+    background-color: #ddd;
 }
 
-.Project-\#12 {
-    grid-area: Project-\#12;
+/* Add a dark background color to the active button */
+.btn.active {
+    background-color: #666;
+    color: white;
 }
+
+
 /* My Skills Section */
 .myskills {
     padding-top: 48px;
@@ -489,6 +510,7 @@ main h4{
     /* border: solid 5px rgb(0, 43, 185); */
     width: 220px;
 }
+
 .shane-btn {
     background-color: black;
     color: white;
@@ -534,11 +556,14 @@ main h4{
     text-align: center;
     margin: auto;
 }
+
 .footer-h1 {
     margin-bottom: 8px;
     margin-top: 8px;
 }
-main, footer {
+
+main,
+footer {
     background: #343A40;
     color: white;
 }
