@@ -244,6 +244,10 @@ html {
 }
 
 /* My Process Section */
+.myprocess {
+    height: 1750px;
+}
+
 .process-button {
     background-color: #6B459D;
     color: white;
@@ -293,7 +297,7 @@ html {
         "L4 R4"
         "L5 R5";
     width: 1440px;
-    height: 1200px;
+    height: 1700px;
     padding-top: 750px;
     padding-left: 0px;
     justify-content: center;
@@ -302,14 +306,9 @@ html {
 
 }
 
-.R2 {
-    grid-area: R2;
-    height: 100px;
-}
-
-.L2 {
-    grid-area: L2;
-    height: 100px;
+.L1 {
+    grid-area: L1;
+    height: auto;
 }
 
 .R1 {
@@ -317,36 +316,41 @@ html {
     height: auto;
 }
 
-.L1 {
-    grid-area: L1;
-    height: 100px;
+.L2 {
+    grid-area: L2;
+    height: auto;
+}
+
+.R2 {
+    grid-area: R2;
+    height: auto;
 }
 
 .L3 {
     grid-area: L3;
-    height: 100px;
-}
-
-.L4 {
-    grid-area: L4;
-    height: 100px;
+    height: auto;
 }
 
 .R3 {
     grid-area: R3;
-    height: 100px;
+    height: auto;
+}
+
+.L4 {
+    grid-area: L4;
+    height: auto;
 }
 
 .R4 {
     grid-area: R4;
-    height: 100px;
+    height: auto;
 }
 
 .L5 {
     grid-area: L5;
     /* border: solid 5px black; */
     width: 100%;
-    height: 100px;
+    height: auto;
 }
 
 .R5 {
@@ -356,6 +360,10 @@ html {
     position: relative;
     left: 69%;
     /* border: solid 3px black; */
+    align-self: end;
+    justify-self: end;
+    left: 0px;
+    bottom: 64px;
 }
 
 
