@@ -402,7 +402,7 @@ main h4 {
 }
 
 h1 {
-    font-size: 50px;
+    font-size: 48px;
     word-break: break-all;
 }
 
@@ -419,7 +419,7 @@ h1 {
 /* Create three equal columns that floats next to each other */
 .column {
     float: left;
-    width: 33.33%;
+    width: 25%;
     display: none;
     /* Hide columns by default */
 }
@@ -433,7 +433,7 @@ h1 {
 
 /* Content */
 .content {
-    background-color: white;
+    background-color: rgb(116, 116, 116);
     padding: 10px;
 }
 
