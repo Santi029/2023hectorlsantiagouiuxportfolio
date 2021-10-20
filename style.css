@@ -6,15 +6,10 @@ body {
 }
 
 header {
-    background-color: #343A40;
+    background-color: #343a40e3;
     position: sticky;
     top: 0px;
     z-index: 1;
-}
-
-header:after {
-    scroll-behavior: smooth;
-    background-color: rgba(102, 102, 102, 0.5);
 }
 
 .container {
@@ -108,7 +103,6 @@ p {
 }
 
 .main-menu {
-    background-color: #343A40;
     width: 720px;
     display: inline-flex;
     flex-flow: row wrap;
@@ -125,13 +119,13 @@ p {
     border: none;
     padding: 6px 16px;
     font-size: .8em;
-    background: #343A40;
+    background: #343a404d;
     border-radius: 4px;
 }
 
-#menu-links:active {
+#menu-links.active {
     color: #ffffff;
-    background-color: #ff3300;
+    background-color: #45C8AB;
 }
 
 #menu-links:hover {
@@ -155,6 +149,10 @@ p {
     flex-wrap: nowrap;
     justify-content: space-evenly;
     padding: 0px 8px;
+}
+
+.social-link img:hover {
+    fill: #ff3300;
 }
 
 /* Botones */
