@@ -25,18 +25,37 @@
 }
 
 /* Style each tab content individually */
-#London {
+#research {
     background-color: red;
 }
 
-#Paris {
+#analyze {
     background-color: green;
 }
 
-#Tokyo {
+#ideate {
     background-color: blue;
 }
 
-#Oslo {
+#wireframe {
     background-color: orange;
+}
+#prototyping {
+    background-color: red;
+}
+
+#presentation {
+    background-color: green;
+}
+
+#development {
+    background-color: blue;
+}
+
+#testandretest {
+    background-color: orange;
+}
+
+#abtesting {
+    background-color: rgb(136, 255, 0);
 }
