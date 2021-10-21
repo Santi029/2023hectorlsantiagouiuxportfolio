@@ -131,7 +131,7 @@ p {
 #menu-links:hover {
     /* background: linear-gradient(to right, #F38F6B, #45C8AB, #6B459D); */
     background: #45C8AB;
-    color: rgb(255, 255, 255);
+    color: white;
     border: none;
 }
 
@@ -273,8 +273,8 @@ html {
 }
 
 .process-button:hover {
-    background: #ffffff;
-    color: rgb(0, 0, 0);
+    background: white;
+    color: black;
     border: 2px solid black;
 }
 
@@ -567,7 +567,7 @@ h1 {
 }
 
 .footer-h1 {
-    color: #ff3300;
+    color: #ff5e00;
     margin-bottom: 8px;
     margin-top: 8px;
 }
