@@ -11,7 +11,7 @@ body {
     cursor: pointer;
     padding: 14px 16px;
     font-size: 17px;
-    width: 10%;
+    width: 12.5%;
 }
 
 .tablink:hover {
@@ -38,6 +38,20 @@ body {
     background-color: #ff5e00;
 }
 
+#Wireframe {
+    background-color: #c9b826;
+}
+
+#Prototyping {
+    background-color: #489d45;
+}
 #Presentation {
-    background-color: orange;
+    background-color: #00f7ff;
+}
+#Development {
+    background-color: #0077ff;
+}
+
+#ABTesting {
+    background-color: #af44a1;
 }
