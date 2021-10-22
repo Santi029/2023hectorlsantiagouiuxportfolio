@@ -10,7 +10,7 @@ $secondary-color: #6B459D;
 $terciary-color: #FD663A; */
 
 header {
-    background-color: #111111;
+    background-color: #222222;
     position: sticky;
     top: 0px;
     z-index: 1;
@@ -646,7 +646,7 @@ h1 {
 
 main,
 footer {
-    background: #111111;
+    background: #333333;
     color: white;
 }
 
@@ -672,7 +672,7 @@ footer h6 {
     height: 48px;
     right: 46px;
     box-shadow: 4px 4px 8px 4px #0000001a;
-    border: solid 3px white;
+    border: none;
 }
 
 .footerblack-btn:hover {
