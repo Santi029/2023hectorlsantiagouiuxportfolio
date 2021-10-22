@@ -3,7 +3,7 @@ body {
 }
 
 .tablink {
-    background-color: #555;
+    background-color: #000000;
     color: white;
     float: left;
     border: none;
@@ -15,7 +15,7 @@ body {
 }
 
 .tablink:hover {
-    background-color: #777;
+    background-color: #575757;
 }
 
 /* Style the tab content */
@@ -35,7 +35,7 @@ body {
 }
 
 #Ideate {
-    background-color: #ff5e00;
+    background-color: #FD663A;
 }
 
 #Wireframe {

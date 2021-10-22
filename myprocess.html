@@ -141,30 +141,14 @@
 
     <button class="tablink" onclick="openCity('Research', this, '#45c8ab')" id="defaultOpen">Research</button>
     <button class="tablink" onclick="openCity('Analize', this, '#6B459D')">Analize</button>
-    <button class="tablink" onclick="openCity('Ideate', this, '#ff5e00')">Ideate</button>
+    <button class="tablink" onclick="openCity('Ideate', this, '#FD663A')">Ideate</button>
     <button class="tablink" onclick="openCity('Wireframe', this, '#c9b826')">Wireframe</button>
     <button class="tablink" onclick="openCity('Prototyping', this, '#489d45')">Prototyping</button>
     <button class="tablink" onclick="openCity('Presentation', this, '#00f7ff')">Presentation</button>
     <button class="tablink" onclick="openCity('Development', this, '#0077ff')">Development</button>
     <button class="tablink" onclick="openCity('ABTesting', this, '#af44a1')">A/B Testing</button>
 
-    <script>
-        function openCity(cityName, elmnt, color) {
-            var i, tabcontent, tablinks;
-            tabcontent = document.getElementsByClassName("tabcontent");
-            for (i = 0; i < tabcontent.length; i++) {
-                tabcontent[i].style.display = "none";
-            }
-            tablinks = document.getElementsByClassName("tablink");
-            for (i = 0; i < tablinks.length; i++) {
-                tablinks[i].style.backgroundColor = "";
-            }
-            document.getElementById(cityName).style.display = "block";
-            elmnt.style.backgroundColor = color;
-        }
-        // Get the element with id="defaultOpen" and click on it
-        document.getElementById("defaultOpen").click();
-    </script>
+    <script src="/interaction.js"></script>
 </body>
 
 </html>

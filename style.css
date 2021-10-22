@@ -10,7 +10,7 @@ $secondary-color: #6B459D;
 $terciary-color: #FD663A; */
 
 header {
-    background-color: #3f3f3f;
+    background-color: #000000;
     position: sticky;
     top: 0px;
     z-index: 1;
@@ -37,7 +37,7 @@ h1 {
     font-family: 'Red Hat Display', sans-serif;
     font-weight: 900;
     font-size: 48px;
-    color: #080808;
+    color: #000000;
     margin-top: 0px;
 }
 
@@ -45,7 +45,7 @@ h2 {
     font-family: 'Raleway', sans-serif;
     font-weight: 800;
     font-size: 40px;
-    color: #101010;
+    color: #000000;
     margin-top: 8px;
     margin-bottom: 8px;
 }
@@ -54,28 +54,28 @@ h3 {
     font-family: 'Raleway', sans-serif;
     font-weight: 700;
     font-size: 32px;
-    color: #181818;
+    color: #000000;
 }
 
 h4 {
     font-family: 'Raleway', sans-serif;
     font-weight: 600;
     font-size: 24px;
-    color: #202020;
+    color: #000000;
 }
 
 h5 {
     font-family: 'Raleway', sans-serif;
     font-weight: 500;
     font-size: 18px;
-    color: #282828;
+    color: #000000;
 }
 
 h6 {
     font-family: 'Raleway', sans-serif;
     font-weight: 400;
     font-size: 16px;
-    color: #303030;
+    color: #000000;
     margin-top: 8px;
     margin-bottom: 8px;
 }
@@ -218,7 +218,7 @@ html {
 }
 
 .hero-text {
-    color: #343A40;
+    color: #000000;
     font-family: Open Sans;
     position: absolute;
     top: 30%;
@@ -646,7 +646,7 @@ h1 {
 
 main,
 footer {
-    background: #3f3f3f;
+    background: #000000;
     color: white;
 }
 
@@ -672,7 +672,7 @@ footer h6 {
     height: 48px;
     right: 46px;
     box-shadow: 4px 4px 8px 4px #0000001a;
-    border: none;
+    border: solid 3px white;
 }
 
 .footerblack-btn:hover {
