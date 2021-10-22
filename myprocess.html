@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="myprocess.css">
+</head>
+
+<body>
+    <div id="Research" class="tabcontent">
+        <div>
+            <h1>Research</h1>
+            <p>Research is the capital city of England.</p>
+        </div>
+        <div>
+            <img src="./images/shutterstock_696064291 2.jpg" alt="">
+        </div>
+        
+        
+    </div>
+
+    <div id="Analize" class="tabcontent">
+        <div>
+            <h1>Analize</h1>
+            <p>Analize is the capital of France.</p>
+        </div>
+        <div>
+            <img src="./images/shutterstock_696064291 2.jpg" alt="">
+        </div>
+    </div>
+
+    <div id="Ideate" class="tabcontent">
+        <div>
+            <h1>Ideate</h1>
+            <p>Ideate is the capital of Japan.</p>
+        </div>
+        <div>
+            <img src="./images/shutterstock_696064291 2.jpg" alt="">
+        </div>
+    </div>
+
+    <div id="Presentation" class="tabcontent">
+        <div>
+            <h1>Presentation</h1>
+            <p>Presentation is the capital of Norway.</p>
+        </div>
+        <div>
+            <img src="./images/shutterstock_696064291 2.jpg" alt="">
+        </div>
+    </div>
+
+
+
+
+
+
+    <button class="tablink" onclick="openCity('Research', this, '#45c8ab')" id="defaultOpen">Research</button>
+    <button class="tablink" onclick="openCity('Analize', this, '#6B459D')">Analize</button>
+    <button class="tablink" onclick="openCity('Ideate', this, '#ff5e00')">Ideate</button>
+    <button class="tablink" onclick="openCity('Presentation', this, 'orange')">Presentation</button>
+
+
+
+
+
+
+    <script>
+        function openCity(cityName, elmnt, color) {
+            var i, tabcontent, tablinks;
+            tabcontent = document.getElementsByClassName("tabcontent");
+            for (i = 0; i < tabcontent.length; i++) {
+                tabcontent[i].style.display = "none";
+            }
+            tablinks = document.getElementsByClassName("tablink");
+            for (i = 0; i < tablinks.length; i++) {
+                tablinks[i].style.backgroundColor = "";
+            }
+            document.getElementById(cityName).style.display = "block";
+            elmnt.style.backgroundColor = color;
+
+        }
+        // Get the element with id="defaultOpen" and click on it
+        document.getElementById("defaultOpen").click();
+    </script>
+
+</body>
+
+</html>
