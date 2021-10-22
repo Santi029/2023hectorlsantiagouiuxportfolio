@@ -280,13 +280,13 @@ html {
 
 .process-steps {
     line-height: 24px;
-    border: solid 5px peachpuff;
+    /* border: solid 5px peachpuff; */
 }
 
 .process-image img {
     width: 600px;
     height: auto;
-    border: solid 5px cornflowerblue;
+    /* border: solid 5px cornflowerblue; */
 }
 
 .process-steps h3 {
@@ -483,9 +483,87 @@ h1 {
 }
 
 .skill-images {
-    width: 1500px;
+    width: 1366px;
+    display: flexbox;
+    flex-flow: row nowrap;
 }
 
+.skill-images img {
+    width: 33%;
+}
+
+#code-image {
+    position: relative;
+    /* height: 281px;
+    width: 450px; */
+    width: 30%;
+    margin: 0 auto;
+}
+
+#code-image img, #uiux-image img, #management-image img {
+    position: absolute;
+    left: 250px;
+    -webkit-transition: opacity 1s ease-in-out;
+    -moz-transition: opacity 1s ease-in-out;
+    -o-transition: opacity 1s ease-in-out;
+    transition: opacity 1s ease-in-out;
+}
+
+#code-image img.top:hover {
+    opacity: 0;
+}
+
+#uiux-image {
+    position: relative;
+    /* height: 281px;
+    width: 450px; */
+    width: 30%;
+    margin: 0 auto;
+}
+
+#uiux-image img {
+    position: absolute;
+    left: 400px;
+    -webkit-transition: opacity 1s ease-in-out;
+    -moz-transition: opacity 1s ease-in-out;
+    -o-transition: opacity 1s ease-in-out;
+    transition: opacity 1s ease-in-out;
+}
+
+#uiux-image img.top:hover {
+    opacity: 0;
+}
+
+#management-image {
+    position: relative;
+    /* height: 281px;
+    width: 450px; */
+    width: 30%;
+    margin: 0 auto;
+}
+
+#management-image img {
+    position: absolute;
+    left: 600px;
+    -webkit-transition: opacity 1s ease-in-out;
+    -moz-transition: opacity 1s ease-in-out;
+    -o-transition: opacity 1s ease-in-out;
+    transition: opacity 1s ease-in-out;
+}
+
+#management-image img.top:hover {
+    opacity: 0;
+}
+
+
+
+#uiux-image {
+    width: 38%;
+}
+
+#management-image {
+    width: 30%;
+}
 
 
 /* My About Section */
