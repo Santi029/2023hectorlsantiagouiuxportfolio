@@ -10,7 +10,7 @@ $secondary-color: #6B459D;
 $terciary-color: #FD663A; */
 
 header {
-    background-color: #000000;
+    background-color: #111111;
     position: sticky;
     top: 0px;
     z-index: 1;
@@ -646,7 +646,7 @@ h1 {
 
 main,
 footer {
-    background: #000000;
+    background: #111111;
     color: white;
 }
 
