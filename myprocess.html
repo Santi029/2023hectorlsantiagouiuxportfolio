@@ -4,9 +4,51 @@
 <head>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="myprocess.css">
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
+    <header id="topupper">
+        <div class="container">
+            <div class="top-nav">
+                <div class="logo-picture">
+                    <div class="profile-picture">
+                        <img src="./images/hlsp circle profile picture.png" alt="hlsp circle profile picture">
+                    </div>
+                    <div class="logo">
+                        <img src="./images/hlsp2021logo-white.png" alt="hectorlsantiago logo white">
+                    </div>
+                </div>
+                <menu class="main-menu">
+                    <ul>
+                        <a href="#topupper" class="active"><button id="menu-links" class="active">home</button></a>
+                    </ul>
+                    <ul>
+                        <a href="#myprocess"><button id="menu-links">my process</button></a>
+                    </ul>
+                    <ul>
+                        <a href="#myprojects"><button id="menu-links">my projects</button></a>
+                    </ul>
+                    <ul>
+                        <a href="#myskills"><button id="menu-links">my skills</button></a>
+                    </ul>
+                    <ul>
+                        <a href="#about"><button id="menu-links">about</button></a>
+                    </ul>
+                    <ul>
+                        <a href="#contact"><button id="menu-links">contact</button></a>
+                    </ul>
+                </menu>
+                <div class="social-links">
+                    <div><img src="./images/Mask Group.png" alt="Behance"></div>
+                    <div><img src="./images/Mask Group-1.png" alt="Github"></div>
+                    <div><img src="./images/Mask Group-2.png" alt="Linkedin"></div>
+                    <div><img src="./images/Mask Group-3.png" alt="Facebook"></div>
+                </div>
+            </div>
+        </div>
+    </header>
+
     <div id="Research" class="tabcontent">
         <div>
             <h1>Research</h1>
@@ -15,8 +57,6 @@
         <div>
             <img src="./images/shutterstock_696064291 2.jpg" alt="">
         </div>
-        
-        
     </div>
 
     <div id="Analize" class="tabcontent">
@@ -99,11 +139,6 @@
         </div>
     </div>
 
-
-
-
-
-
     <button class="tablink" onclick="openCity('Research', this, '#45c8ab')" id="defaultOpen">Research</button>
     <button class="tablink" onclick="openCity('Analize', this, '#6B459D')">Analize</button>
     <button class="tablink" onclick="openCity('Ideate', this, '#ff5e00')">Ideate</button>
@@ -112,11 +147,6 @@
     <button class="tablink" onclick="openCity('Presentation', this, '#00f7ff')">Presentation</button>
     <button class="tablink" onclick="openCity('Development', this, '#0077ff')">Development</button>
     <button class="tablink" onclick="openCity('ABTesting', this, '#af44a1')">A/B Testing</button>
-
-
-
-
-
 
     <script>
         function openCity(cityName, elmnt, color) {
@@ -131,12 +161,10 @@
             }
             document.getElementById(cityName).style.display = "block";
             elmnt.style.backgroundColor = color;
-
         }
         // Get the element with id="defaultOpen" and click on it
         document.getElementById("defaultOpen").click();
     </script>
-
 </body>
 
 </html>
