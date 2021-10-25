@@ -409,7 +409,7 @@ main h4 {
 
 main {
     margin: auto;
-    max-width: 1920px;
+    max-width: 100%;
     background: #333333;
     color: white;
 }
@@ -488,6 +488,7 @@ main h5 {
     width: 1920px;
     height: 750px;
     /* border: solid 3px peru; */
+    margin: auto;
 }
 
 .skill-images {
