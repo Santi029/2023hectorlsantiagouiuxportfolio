@@ -19,7 +19,7 @@ header {
 .container {
     width: 1366px;
     margin: auto;
-    /* border: solid 5px #45C8AB; */
+    border: solid 5px #45C8AB;
 }
 
 .top-nav {
@@ -214,7 +214,7 @@ html {
     background-size: cover;
     z-index: 0;
     background-origin: border-box;
-    /* border: 3px solid #8c00ff; */
+    border: 3px solid #8c00ff;
 }
 
 .hero-text {
@@ -226,7 +226,7 @@ html {
     width: 600px;
     height: auto;
     z-index: 0;
-    /* border: 3px solid #eeff00; */
+    border: 3px solid #eeff00;
 }
 
 .hero-text h1 {
@@ -284,13 +284,13 @@ html {
 
 .process-steps {
     line-height: 24px;
-    /* border: solid 5px peachpuff; */
+    border: solid 5px peachpuff;
 }
 
 .process-image img {
     width: 600px;
     height: auto;
-    /* border: solid 5px cornflowerblue; */
+    border: solid 5px cornflowerblue;
 }
 
 .process-steps h3 {
@@ -488,7 +488,7 @@ main h5 {
     padding-bottom: 48px;
     width: 1920px;
     height: 750px;
-    /* border: solid 3px peru; */
+    border: solid 3px peru;
     margin: auto;
 }
 
@@ -498,12 +498,12 @@ main h5 {
     flex-flow: row nowrap;
     justify-content: space-around;
     height: 460px;
-    /* border: solid 3px peru; */
+    border: solid 3px peru;
 }
 
 .skill-images img {
     width: 33%;
-    /* border: solid 3px rgb(91, 205, 63); */
+    border: solid 3px rgb(91, 205, 63);
 }
 
 #code-image {
@@ -573,12 +573,20 @@ main h5 {
     padding-top: 48px;
     padding-bottom: 48px;
     width: 100%;
-    /* border: solid 5px rgb(226, 230, 1); */
+    margin: auto;
+    border: solid 5px rgb(226, 230, 1);
+}
+
+.about-header {
+    border: solid 5px #ff3030;
+    display: block;
+    width: 60%;
+    margin: auto;
 }
 
 .about-text {
-    width: 1000px;
-    /* border: solid 5px rgb(0, 141, 141); */
+    width: 60%;
+    border: solid 5px rgb(0, 141, 141);
 }
 
 .about-text h4 {
@@ -587,16 +595,26 @@ main h5 {
 }
 
 .sub-about {
-    /* border: solid 5px #8d00df; */
     display: flex;
     flex-flow: row wrap;
     justify-content: space-between;
+    border: solid 5px #c401e6;
+    width: 60%;
+    margin: auto;
+}
+
+.about-image img {
+    border-radius: 12px;
+    box-shadow: 4px 4px 8px 4px #0000001a;
+    width: 218.9px; 
+    height: auto;
+    margin: 16px 0px;
 }
 
 .recomendations {
     display: flexbox;
     flex-flow: column;
-    /* border: solid 5px rgb(0, 43, 185); */
+    border: solid 5px rgb(0, 43, 185);
     width: 220px;
 }
 
@@ -644,6 +662,7 @@ main h5 {
     width: 800px;
     text-align: center;
     margin: auto;
+    border: solid 3px peru;
 }
 
 .footer-h1 {
