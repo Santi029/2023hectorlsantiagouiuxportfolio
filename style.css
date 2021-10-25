@@ -454,6 +454,7 @@ main h5 {
 .content {
     background-color: rgb(116, 116, 116);
     padding: 10px;
+    box-shadow: 4px 4px 8px 4px #00000057;
 }
 
 /* The "show" class is added to the filtered elements */
@@ -646,7 +647,7 @@ main h5 {
 }
 
 .footer-h1 {
-    color: #FD663A;
+    color: #00ffc8;
     margin-bottom: 8px;
     margin-top: 8px;
 }
