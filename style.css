@@ -512,7 +512,7 @@ main h5 {
     right: auto;
     height: auto;
     width: 40%;
-    margin: 0 auto;
+    
 }
 
 #code-image img {
@@ -530,12 +530,11 @@ main h5 {
 
 #uiux-image {
     position: relative;
-    margin: 0 auto;
 }
 
 #uiux-image img {
     position: absolute;
-    left: 400px;
+    left: 420px;
     -webkit-transition: opacity 400ms ease-in-out;
     -moz-transition: opacity 400ms ease-in-out;
     -o-transition: opacity 400ms ease-in-out;
@@ -551,7 +550,6 @@ main h5 {
     right: auto;
     height: auto;
     width: 350px;
-    margin: 0 auto;
 }
 
 #management-image img {
