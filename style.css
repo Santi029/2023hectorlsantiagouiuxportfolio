@@ -602,7 +602,7 @@ main h5 {
     margin: auto;
 }
 
-.about-image img {
+#about-image {
     border-radius: 12px;
     box-shadow: 4px 4px 8px 4px #0000001a;
     width: 218.9px; 
