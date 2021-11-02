@@ -273,6 +273,7 @@ html {
 /* My Process Section */
 .myprocess {
     height: auto;
+    border: solid 1px grey;
 }
 
 .process-button {
@@ -300,9 +301,9 @@ html {
 }
 
 .process-image img {
-    width: 600px;
+    width: 800px;
     height: auto;
-    /* border: solid 5px cornflowerblue; */
+    position: absolute;
 }
 
 .process-steps h3 {
