@@ -136,7 +136,7 @@ p {
 
 #menu-links.active {
     color: #ffffff;
-    background-image: linear-gradient(115deg, #F38F6B, #45C8AB, #6B459D);
+    /* background-image: linear-gradient(115deg, #F38F6B, #45C8AB, #6B459D); */
 }
 
 #menu-links.active span {
@@ -147,6 +147,7 @@ p {
 #menu-links:hover {
     color: white;
     border: none;
+    background-image: linear-gradient(115deg, #F38F6B, #45C8AB, #6B459D);
 }
 
 .social-links {
