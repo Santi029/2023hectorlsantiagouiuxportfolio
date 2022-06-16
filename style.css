@@ -585,19 +585,19 @@ main h5 {
     padding-bottom: 48px;
     width: 100%;
     margin: auto;
-    border: solid 5px rgb(226, 230, 1);
+    /* border: solid 5px rgb(226, 230, 1); */
 }
 
 .about-header {
     display: block;
     width: 80%;
     margin: auto;
-    border: solid 5px #ff3030;
+    /* border: solid 5px #ff3030; */
 }
 
 .about-text {
-    width: 80%;
-    border: solid 5px rgb(0, 141, 141);
+    width: 78%;
+    /* border: solid 1px rgb(0, 141, 141); */
 }
 
 .about-text h4 {
@@ -611,7 +611,7 @@ main h5 {
     justify-content: space-between;
     width: 80%;
     margin: auto;
-    border: solid 5px #c401e6;
+    /* border: solid 3px #c401e6; */
 }
 
 #about-image {
@@ -626,7 +626,7 @@ main h5 {
 .recomendations {
     display: flexbox;
     flex-flow: column;
-    border: solid 5px rgb(0, 43, 185);
+    /* border: solid 5px rgb(0, 43, 185); */
     width: 220px;
     border-radius: 16px;
     background-color: #c3c3c3;
