@@ -309,7 +309,7 @@ html {
     position: absolute;
 }
 
-.process-steps h3 {
+.process-steps h3 h5{
     margin-top: 8px;
     margin-bottom: 8px;
 }
