@@ -266,6 +266,10 @@ html {
     /* border: 3px solid #00df68; */
 }
 
+#about-subtittle {
+    color: #000000;
+}
+
 .colors-bar {
     position: absolute;
     top: 65px;
