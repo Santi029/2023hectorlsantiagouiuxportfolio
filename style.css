@@ -19,7 +19,7 @@ header {
 .container {
     width: 1366px;
     margin: auto;
-    border: solid 5px #c145c8;
+    /* border: solid 5px #c145c8; */
 }
 
 .top-nav {
@@ -516,12 +516,12 @@ main h5 {
 .skill-images {
     width: 100%;
     height: auto;
-    border: solid 3px #03ffff;
+    /* border: solid 3px #03ffff; */
 }
 
 .skill-images img {
     width: 100%;
-    border: solid 3px rgb(91, 205, 63);
+    /* border: solid 3px rgb(91, 205, 63); */
 }
 
 #code-image {
