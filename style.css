@@ -515,16 +515,16 @@ main h5 {
 
 .skill-images {
     width: 100%;
-    display: flexbox;
+    /* display: flexbox;
     flex-flow: row nowrap;
-    justify-content: space-around;
+    justify-content: space-around; */
     height: 460px;
-    /* border: solid 3px #03ffff; */
+    border: solid 3px #03ffff;
 }
 
 .skill-images img {
     width: 33%;
-    /* border: solid 3px rgb(91, 205, 63); */
+    border: solid 3px rgb(91, 205, 63);
 }
 
 #code-image {
