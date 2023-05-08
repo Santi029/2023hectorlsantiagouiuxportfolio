@@ -515,24 +515,19 @@ main h5 {
 
 .skill-images {
     width: 100%;
-    /* display: flexbox;
-    flex-flow: row nowrap;
-    justify-content: space-around; */
-    height: 460px;
+    height: auto;
     border: solid 3px #03ffff;
 }
 
 .skill-images img {
-    width: 33%;
+    width: 100%;
     border: solid 3px rgb(91, 205, 63);
 }
 
 #code-image {
     position: absolute;
     right: auto;
-    height: auto;
-    width: 40%;
-    
+    height: auto;    
 }
 
 #code-image img {
@@ -545,43 +540,6 @@ main h5 {
 }
 
 #code-image img.top:hover {
-    opacity: 0;
-}
-
-#uiux-image {
-    position: relative;
-}
-
-#uiux-image img {
-    position: absolute;
-    left: 420px;
-    -webkit-transition: opacity 400ms ease-in-out;
-    -moz-transition: opacity 400ms ease-in-out;
-    -o-transition: opacity 400ms ease-in-out;
-    transition: opacity 400ms ease-in-out;
-}
-
-#uiux-image img.top:hover {
-    opacity: 0;
-}
-
-#management-image {
-    position: absolute;
-    right: auto;
-    height: auto;
-    width: 350px;
-}
-
-#management-image img {
-    position: absolute;
-    left: 960px;
-    -webkit-transition: opacity 400ms ease-in-out;
-    -moz-transition: opacity 400ms ease-in-out;
-    -o-transition: opacity 400ms ease-in-out;
-    transition: opacity 400ms ease-in-out;
-}
-
-#management-image img.top:hover {
     opacity: 0;
 }
 
