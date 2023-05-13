@@ -513,10 +513,10 @@ main h5 {
     margin: auto;
 }
 
-.code-images {
+.skill-images img {
     width: 100%;
     height: auto;
-    border: solid 3px #03ffff;
+    /* border: solid 3px #03ffff; */
 }
 
 /* My About Section */
