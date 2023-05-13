@@ -509,7 +509,7 @@ main h5 {
     padding-bottom: 48px;
     width: 100%;
     height: auto;
-    /* border: solid 3px peru; */
+    border: solid 3px peru;
     margin: auto;
 }
 
