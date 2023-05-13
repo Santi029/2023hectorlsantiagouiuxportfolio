@@ -232,6 +232,65 @@ html {
     border: 3px solid #8c00ff;
 }
 
+
+/* ------------------------------------- */
+.slideshow {
+    position: relative;
+    width: 100%;
+    max-width: 800px;
+    margin: 0 auto;
+    overflow: hidden;
+  }
+  
+  .slide {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    transition: opacity 0.5s ease-in-out;
+  }
+  
+  .slide img {
+    width: 100%;
+    height: auto;
+  }
+  
+  .slide-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: #fff;
+  }
+  
+  .slide-content h2 {
+    font-size: 24px;
+    margin: 0;
+  }
+  
+  .slide-content h3 {
+    font-size: 18px;
+    margin: 10px 0;
+  }
+  
+  .slide-content .cta {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #ff5f5f;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+  }
+  
+  .slideshow .slide.active {
+    opacity: 1;
+  }
+  /* ----------------------------------------- */
+
+
 .hero-text {
     color: #000000;
     font-family: Open Sans;
