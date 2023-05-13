@@ -19,7 +19,7 @@ header {
 .container {
     width: 1366px;
     margin: auto;
-    /* border: solid 5px #c145c8; */
+    border: solid 5px #c145c8;
 }
 
 .top-nav {
