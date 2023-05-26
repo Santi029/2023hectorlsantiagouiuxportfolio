@@ -230,7 +230,7 @@ html {
     background-size: cover;
     z-index: 0;
     background-origin: border-box;
-    border: 3px solid #8c00ff;
+    /* border: 3px solid #8c00ff; */
 }
 
 .hero-text {
