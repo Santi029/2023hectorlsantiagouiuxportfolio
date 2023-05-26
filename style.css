@@ -143,13 +143,14 @@ p {
 
 #menu-links.active span {
     color: #ffffff;
-    background-image: linear-gradient(115deg, #F38F6B, #45C8AB, #6B459D);
+    /* background-image: linear-gradient(115deg, #F38F6B, #45C8AB, #6B459D); */
+    
 }
 
 #menu-links:hover {
     color: white;
-    border: none;
-    background-image: linear-gradient(115deg, #F38F6B, #45C8AB, #6B459D);
+    border: solid 1px white
+    /* background-image: linear-gradient(115deg, #F38F6B, #45C8AB, #6B459D); */
 }
 
 .social-links {
