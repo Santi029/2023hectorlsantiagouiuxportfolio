@@ -1,25 +1,176 @@
+/* Color Sets */
+:root {
+    --clr-background: #222222;
+    --clr-projbackground: #333333;
+    --clr-light: white;
+    --clr-dark: black;
+    --clr-slate200: hsl(0, 0%, 80%);
+    --clr-slate250: hsl(0, 0%, 76%);
+    --clr-slate400: hsl(0, 0%, 60%);
+    --clr-slate500: hsl(0, 0%, 50%);
+    --clr-slate550: hsl(0, 0%, 45%);
+    --clr-slate600: hsl(0, 0%, 40%);
+    --clr-slate800: hsl(0, 0%, 20%);
+    --clr-shadow: #0000001a;
+
+    --clr-menulinks: #3f3f3f00;
+
+    --clr-violet: #6B459D;
+    --clr-orange: peru;
+    --clr-teal: #45C8AB;
+    --clr-projteal: #00ffc8;
+
+    /* Sizes */
+    --size-xxs: 0.5rem;
+    --size-xs: 0.75rem;
+    --size-sm: 0.875rem;
+    --size-base: 1rem;
+    --size-lg: 1.125rem;
+    --size-xl: 1.25rem;
+    --size-2xl: 1.5rem;
+    --size-3xl: 1.875rem;
+    --size-4xl: 2.25rem;
+    --size-5xl: 3rem;
+    --size-6xl: 3.75rem;
+    --size-7xl: 4.5rem;
+    --size-8xl: 6rem;
+    --size-9xl: 8rem;
+    --size-10xl: 10rem;
+}
+
+* {
+    margin: 0;
+    line-height: calc(1em + 0.5rem);
+}
+
+html {
+    height: 100%;
+    scroll-behavior: smooth;
+}
+
 body {
     font-family: 'Roboto', sans-serif;
     font-size: 14px;
     padding: 0%;
-    margin: 0%;
+    background-color: var(--clr-light);
+    color: var(--clr-dark);
 }
 
-/* $primary-color: #45C8AB;
-$secondary-color: #6B459D;
-$terciary-color: #FD663A; */
+img,
+picture,
+video,
+canvas,
+svg {
+    display: block;
+    max-width: 100%;
+    user-select: none;
+}
+
+button {
+    display: inline-block;
+    padding: 0;
+    border: none;
+    background: none;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+
+button:hover {
+    transform: translateY(-3px);
+
+}
+
+/* Text configuration */
+h1 {
+    font-family: 'Red Hat Display', sans-serif;
+    font-weight: 700;
+    font-size: 48px;
+    color: var(--clr-dark);
+    margin-top: 0px;
+}
+
+h2 {
+    font-family: 'Red Hat Display', sans-serif;
+    font-weight: 800;
+    font-size: 40px;
+    color: var(--clr-dark);
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
+
+h3 {
+    font-family: 'Red Hat Display', sans-serif;
+    font-weight: 700;
+    font-size: 32px;
+    color: var(--clr-dark);
+}
+
+h4 {
+    font-family: 'Red Hat Display', sans-serif;
+    font-weight: 600;
+    font-size: 24px;
+    color: var(--clr-dark);
+}
+
+h5 {
+    font-family: 'Red Hat Display', sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+    color: var(--clr-dark);
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
+
+h6 {
+    font-family: 'Red Hat Display', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: var(--clr-dark);
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
+
+p {
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
+
+strong {
+    color: var(--clr-light);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 header {
-    background-color: #222222;
+    background-color: var(--clr-background);
     position: sticky;
     top: 0px;
     z-index: 1;
-}
-
-.container {
-    width: 1366px;
-    margin: auto;
-    /* border: solid 5px #c145c8; */
 }
 
 .top-nav {
@@ -31,61 +182,6 @@ header {
     margin-top: 0px;
     margin-bottom: 0px;
     /* border: solid 1px rgb(255, 229, 80); */
-}
-
-/* Text configuration */
-h1 {
-    font-family: 'Red Hat Display', sans-serif;
-    font-weight: 700;
-    font-size: 48px;
-    color: #000000;
-    margin-top: 0px;
-}
-
-h2 {
-    font-family: 'Red Hat Display', sans-serif;
-    font-weight: 800;
-    font-size: 40px;
-    color: #000000;
-    margin-top: 8px;
-    margin-bottom: 8px;
-}
-
-h3 {
-    font-family: 'Red Hat Display', sans-serif;
-    font-weight: 700;
-    font-size: 32px;
-    color: #000000;
-}
-
-h4 {
-    font-family: 'Red Hat Display', sans-serif;
-    font-weight: 600;
-    font-size: 24px;
-    color: #000000;
-}
-
-h5 {
-    font-family: 'Red Hat Display', sans-serif;
-    font-weight: 500;
-    font-size: 18px;
-    color: #000000;
-    margin-top: 8px;
-    margin-bottom: 8px;
-}
-
-h6 {
-    font-family: 'Red Hat Display', sans-serif;
-    font-weight: 400;
-    font-size: 16px;
-    color: #000000;
-    margin-top: 8px;
-    margin-bottom: 8px;
-}
-
-p {
-    margin-top: 8px;
-    margin-bottom: 8px;
 }
 
 /* Header configuration */
@@ -129,32 +225,32 @@ p {
 }
 
 #menu-links {
-    color: #ffffff;
+    color: var(--clr-light);
     border: none;
     padding: 6px 24px;
-    background: #3f3f3f00;
+    background: var(--clr-menulinks);
     border-radius: 4px;
 }
 
 #menu-links.active {
-    color: #ffffff;
+    color: var(--clr-light);
     /* background-image: linear-gradient(115deg, #F38F6B, #45C8AB, #6B459D); */
 }
 
 #menu-links.active span {
-    color: #ffffff;
+    color: var(--clr-light);
     /* background-image: linear-gradient(115deg, #F38F6B, #45C8AB, #6B459D); */
     
 }
 
 #menu-links:hover {
-    color: white;
-    border: solid 1px white
+    color: var(--clr-light);
+    border: solid 1px var(--clr-light)
     /* background-image: linear-gradient(115deg, #F38F6B, #45C8AB, #6B459D); */
 }
 
 .social-links {
-    color: white;
+    color: var(--clr-light);
     display: flex;
     flex-wrap: row nowrap;
     padding: 28px 24px;
@@ -172,51 +268,7 @@ p {
 }
 
 .social-link img:hover {
-    fill: #000000;
-}
-
-/* Botones */
-.black-btn {
-    background-color: black;
-    color: white;
-    font-weight: 600;
-    border-radius: 8px;
-    padding: 8px 16px;
-    position: absolute;
-    width: 218.9px;
-    height: 48px;
-    z-index: 1;
-    box-shadow: 4px 4px 8px 4px #0000001a;
-    border: none;
-}
-
-.black-btn:hover {
-    background: #6B459D;
-}
-
-.white-btn {
-    background-color: white;
-    color: black;
-    font-weight: 600;
-    border: solid 2px black;
-    border-radius: 8px;
-    padding: 8px 16px;
-    margin-left: 64px;
-    position: absolute;
-    width: 218.9px;
-    height: 48px;
-    left: 300px;
-    z-index: 1;
-    box-shadow: 4px 4px 8px 4px #0000001a;
-    border: none;
-}
-
-.white-btn:hover {
-    background: #45C8AB;
-}
-
-html {
-    height: 100%;
+    fill: var(--clr-dark);
 }
 
 /* The hero image */
@@ -225,7 +277,7 @@ html {
     width: 100%;
     height: 700px;
     top: 75px;
-    background-image: url(/images/hero-background.jpg);
+    background-image: url(../src/images/hero-background.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     z-index: 0;
@@ -234,7 +286,7 @@ html {
 }
 
 .hero-text {
-    color: #000000;
+    color: var(--clr-dark);
     font-family: Open Sans;
     position: absolute;
     top: 30%;
@@ -269,7 +321,7 @@ html {
 }
 
 #about-subtittle {
-    color: #000000;
+    color: var(--clr-dark);
 }
 
 .colors-bar {
@@ -282,26 +334,7 @@ html {
 /* My Process Section */
 .myprocess {
     height: auto;
-    border: solid 1px grey;
-}
-
-.process-button {
-    background-color: #6B459D;
-    color: white;
-    font-weight: 600;
-    border-radius: 8px;
-    padding: 8px 16px;
-    position: absolute;
-    width: 218.9px;
-    height: 48px;
-    box-shadow: 4px 4px 8px 4px #0000001a;
-    border: none;
-}
-
-.process-button:hover {
-    background: white;
-    color: black;
-    border: 2px solid black;
+    border: solid 1px var(--clr-slate500);
 }
 
 .process-steps {
@@ -406,7 +439,7 @@ html {
 }
 
 main h6 {
-    color: white;
+    color: var(--clr-light);
     margin-top: 8px;
     margin-bottom: 8px;
 }
@@ -417,14 +450,9 @@ main h2 {
 }
 
 main h4 {
-    color: white;
+    color: var(--clr-light);
     margin-top: 16px;
     margin-bottom: 16px;
-}
-
-/* My Work Section inside of projects. */
-* {
-    box-sizing: border-box;
 }
 
 /* Center website */
@@ -432,8 +460,8 @@ main h4 {
 main {
     margin: auto;
     max-width: 100%;
-    background: #333333;
-    color: white;
+    background: var(--clr-projbackground);
+    color: var(--clr-light);
 }
 
 h1 {
@@ -445,7 +473,7 @@ h1 {
     margin: 8px -16px;
 }
 main h5 {
-    color: #00ffc8;
+    color: var(--clr-projteal);
     font-weight: 600;
     font-size: 1.5em;
     padding: 0px;
@@ -474,34 +502,14 @@ main h5 {
 
 /* Content */
 .content {
-    background-color: rgb(116, 116, 116);
+    background-color: var(--clr-slate550);
     padding: 10px;
-    box-shadow: 4px 4px 8px 4px #00000057;
+    box-shadow: 4px 4px 8px 4px var(--clr-shadow);
 }
 
 /* The "show" class is added to the filtered elements */
 .show {
     display: block;
-}
-
-/* Style the buttons */
-.btn {
-    border: none;
-    outline: none;
-    padding: 12px 16px;
-    background-color: white;
-    cursor: pointer;
-}
-
-/* Add a grey background color on mouse-over */
-.btn:hover {
-    background-color: #45C8AB;
-}
-
-/* Add a dark background color to the active button */
-.btn.active {
-    background-color: #666;
-    color: white;
 }
 
 /* My Skills Section */
@@ -510,7 +518,7 @@ main h5 {
     padding-bottom: 48px;
     width: 100%;
     height: auto;
-    border: solid 3px peru;
+    /* border: solid 3px var(--clr-orange); */
     margin: auto;
 }
 
@@ -557,7 +565,7 @@ main h5 {
 
 #about-image {
     border-radius: 12px;
-    box-shadow: 4px 4px 8px 4px #0000001a;
+    box-shadow: 4px 4px 8px 4px var(--clr-shadow);
     width: 218.9px; 
     height: auto;
     margin: 16px 0px;
@@ -570,45 +578,8 @@ main h5 {
     /* border: solid 5px rgb(0, 43, 185); */
     width: 220px;
     border-radius: 16px;
-    background-color: #c3c3c3;
+    background-color: var(--clr-slate250);
     padding: 16px;
-}
-
-.shane-btn {
-    background-color: black;
-    color: white;
-    font-weight: 600;
-    border-radius: 8px;
-    padding: 8px 16px;
-    width: 218.9px;
-    height: 48px;
-    box-shadow: 4px 4px 8px 4px #0000001a;
-    border: none;
-    margin-bottom: 24px;
-}
-
-.shane-btn:hover {
-    background: #6B459D;
-}
-
-.kyle-btn {
-    background-color: white;
-    color: black;
-    font-weight: 600;
-    border: solid 2px black;
-    border-radius: 8px;
-    padding: 8px 16px;
-    margin: auto;
-    position: relative;
-    width: 218.9px;
-    height: 48px;
-    box-shadow: 4px 4px 8px 4px #0000001a;
-    border: none;
-    margin-bottom: 24px;
-}
-
-.kyle-btn:hover {
-    background: #45C8AB;
 }
 
 /* My footer Section */
@@ -622,63 +593,18 @@ main h5 {
 }
 
 .footer-h1 {
-    color: #00ffc8;
+    color: var(--clr-projteal);
     margin-bottom: 8px;
     margin-top: 8px;
 }
 
 footer {
-    background: #333333;
-    color: white;
+    background: var(--clr-projbackground);
+    color: var(--clr-light);
 }
 
 footer h6 {
-    color: white;
-}
-
-.footer-buttons {
-    margin: auto;
-    width: 600px;
-    margin-top: 40px;
-    margin-bottom: 40px;
-}
-
-.footerblack-btn {
-    background-color: black;
-    color: white;
-    font-weight: 600;
-    border-radius: 8px;
-    padding: 8px 16px;
-    position: relative;
-    width: 218.9px;
-    height: 48px;
-    right: 46px;
-    box-shadow: 4px 4px 8px 4px #0000001a;
-    border: none;
-}
-
-.footerblack-btn:hover {
-    background: #6B459D;
-}
-
-.footerwhite-btn {
-    background-color: white;
-    color: black;
-    font-weight: 600;
-    border: solid 2px black;
-    border-radius: 8px;
-    padding: 8px 16px;
-    margin-left: 64px;
-    position: relative;
-    width: 218.9px;
-    height: 48px;
-    left: 48px;
-    box-shadow: 4px 4px 8px 4px #0000001a;
-    border: none;
-}
-
-.footerwhite-btn:hover {
-    background: #45C8AB;
+    color: var(--clr-light);
 }
 
 .footer-links {
