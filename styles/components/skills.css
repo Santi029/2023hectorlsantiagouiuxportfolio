@@ -1,0 +1,15 @@
+/* My Skills Section */
+.myskills {
+    padding-top: 48px;
+    padding-bottom: 48px;
+    width: 100%;
+    height: auto;
+    /* border: solid 3px var(--clr-orange); */
+    margin: auto;
+}
+
+.skill-images img {
+    width: 100%;
+    height: auto;
+    /* border: solid 3px #03ffff; */
+}

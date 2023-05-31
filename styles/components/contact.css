@@ -1,0 +1,32 @@
+/* My footer Section */
+.main-footer {
+    padding-top: 48px;
+    padding-bottom: 8px;
+    width: 800px;
+    text-align: center;
+    margin: auto;
+    /* border: solid 3px peru; */
+}
+
+.footer-h1 {
+    color: var(--clr-projteal);
+    margin-bottom: 8px;
+    margin-top: 8px;
+}
+
+footer {
+    background: var(--clr-projbackground);
+    color: var(--clr-light);
+}
+
+footer h6 {
+    color: var(--clr-light);
+}
+
+.footer-links {
+    width: 200px;
+    margin: auto;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
+}
