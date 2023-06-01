@@ -48,6 +48,21 @@ html {
     scroll-behavior: smooth;
 }
 
+.dark-mode {
+    --clr-background: white;
+    --clr-projbackground: white;
+    --clr-light: #222222;
+    --clr-dark: white;
+    --clr-slate200: hsl(0, 0%, 20%);
+    --clr-slate250: hsl(0, 0%, 25%);
+    --clr-slate400: hsl(0, 0%, 40%);
+    --clr-slate500: hsl(0, 0%, 50%);
+    --clr-slate550: hsl(0, 0%, 55%);
+    --clr-slate600: hsl(0, 0%, 60%);
+    --clr-slate800: hsl(0, 0%, 80%);
+    --clr-shadow: #0000001a;
+}
+
 body {
     font-family: 'Roboto', sans-serif;
     font-size: 1rem;

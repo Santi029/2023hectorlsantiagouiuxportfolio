@@ -7,4 +7,6 @@ import '../styles/components/skills.css';
 import '../styles/components/about.css';
 import '../styles/components/contact.css';
 import '../styles/utils.css';
+import darkMode from './dark-mode';
 
+darkMode();

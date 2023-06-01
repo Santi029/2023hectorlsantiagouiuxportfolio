@@ -2,16 +2,24 @@
 .main-footer {
     padding-top: 48px;
     padding-bottom: 8px;
-    width: 800px;
     text-align: center;
     margin: auto;
     /* border: solid 3px peru; */
 }
 
+/* lg */
+@media (min-width: 1024px) {
+    .main-footer {
+        width: 50rem;
+    }
+}
+
 .footer-h1 {
     color: var(--clr-projteal);
+    
     margin-bottom: 8px;
     margin-top: 8px;
+    text-transform: uppercase;
 }
 
 footer {

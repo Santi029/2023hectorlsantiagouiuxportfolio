@@ -145,9 +145,10 @@
 
 .footer-buttons {
     margin: auto;
-    width: 600px;
     margin-top: 40px;
     margin-bottom: 40px;
+    display: flex;
+    justify-content: space-between;
 }
 
 .footerblack-btn {
@@ -159,7 +160,7 @@
     position: relative;
     width: 218.9px;
     height: 48px;
-    right: 46px;
+    left: 5%;
     box-shadow: 4px 4px 8px 4px var(--clr-shadow);
     border: none;
 }
@@ -175,11 +176,10 @@
     border: solid 2px var(--clr-dark);
     border-radius: 8px;
     padding: 8px 16px;
-    margin-left: 64px;
     position: relative;
     width: 218.9px;
     height: 48px;
-    left: 48px;
+    right: 5%;
     box-shadow: 4px 4px 8px 4px var(--clr-shadow);
     border: none;
 }
