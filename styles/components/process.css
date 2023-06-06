@@ -1,7 +1,7 @@
 /* My Process Section */
 .myprocess {
     height: auto;
-    border: solid 1px var(--clr-slate500);
+    /* border: solid 1px var(--clr-slate500); */
 }
 
 .process-steps {

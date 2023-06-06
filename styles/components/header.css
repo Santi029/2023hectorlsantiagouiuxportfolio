@@ -78,7 +78,7 @@ header {
         display: flex;
         position: relative;
         left: 5%;
-        border: solid 1px rgb(235, 80, 255);
+        /* border: solid 1px rgb(235, 80, 255); */
     }
 
     .profile-picture {
@@ -173,6 +173,10 @@ header {
     background-size: cover;
     z-index: 0;
     /* border: 3px solid #8c00ff; */
+}
+
+.hero {
+    height: 44rem;
 }
 
 .hero-text {
